@@ -37,5 +37,23 @@ $(document).ready(function(){
 
 $('.doctors__wrapper-btn_link').on('click', function(){
 	$(this).toggleClass('doctors__wrapper-btn_link--active');
-	$(this).next().slideToggle('200');
+	$(this).next().slideToggle('200');	
+});
+$(document).ready(function(){
+	$('.button_one').click(function(){
+		$('#button_one').slideToggle(300);      
+		return false;
+	});
+	$('.button_two').click(function(){
+		$('#button_two').slideToggle(300);      
+		return false;
+	});
+	$('.button_three').click(function(){
+		$('#button_three').slideToggle(300);      
+		return false;
+	});
+	$('.button_four').click(function(){
+		$('#button_four').slideToggle(300);      
+		return false;
+	});
 });
